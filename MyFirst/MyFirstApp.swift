@@ -2,7 +2,7 @@
 //  MyFirstApp.swift
 //  MyFirst
 //
-//  Created by Srinivas Pala on 8/30/23.
+//  Created by Vijaya Kosuri on 8/30/23.
 //
 
 import SwiftUI

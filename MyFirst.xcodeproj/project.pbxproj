@@ -14,6 +14,7 @@
 		164AB2B32A9FEA5600C068F8 /* MyFirstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164AB2B22A9FEA5600C068F8 /* MyFirstTests.swift */; };
 		164AB2BD2A9FEA5600C068F8 /* MyFirstUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164AB2BC2A9FEA5600C068F8 /* MyFirstUITests.swift */; };
 		164AB2BF2A9FEA5600C068F8 /* MyFirstUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164AB2BE2A9FEA5600C068F8 /* MyFirstUITestsLaunchTests.swift */; };
+		164AB2CC2A9FF77500C068F8 /* ByeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164AB2CB2A9FF77500C068F8 /* ByeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		164AB2B82A9FEA5600C068F8 /* MyFirstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		164AB2BC2A9FEA5600C068F8 /* MyFirstUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstUITests.swift; sourceTree = "<group>"; };
 		164AB2BE2A9FEA5600C068F8 /* MyFirstUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		164AB2CB2A9FF77500C068F8 /* ByeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				164AB2A02A9FEA5500C068F8 /* MyFirstApp.swift */,
 				164AB2A22A9FEA5500C068F8 /* ContentView.swift */,
+				164AB2CB2A9FF77500C068F8 /* ByeView.swift */,
 				164AB2A42A9FEA5500C068F8 /* Assets.xcassets */,
 				164AB2A92A9FEA5500C068F8 /* MyFirst.entitlements */,
 				164AB2A62A9FEA5500C068F8 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				164AB2CC2A9FF77500C068F8 /* ByeView.swift in Sources */,
 				164AB2A32A9FEA5500C068F8 /* ContentView.swift in Sources */,
 				164AB2A12A9FEA5500C068F8 /* MyFirstApp.swift in Sources */,
 			);

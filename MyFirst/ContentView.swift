@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  MyFirst
 //
-//  Created by Srinivas Pala on 8/30/23.
+//  Created by Vijaya Kosuri on 8/30/23.
 //
 
 import SwiftUI
@@ -13,7 +13,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            ByeView()
         }
         .padding()
     }
@@ -22,5 +22,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+        ContentView()
+                .previewDevice(PreviewDevice(rawValue: "iPhone 8"))
     }
 }
